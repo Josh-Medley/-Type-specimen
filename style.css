@@ -1,5 +1,49 @@
-* {
-  box-sizing: border-box;
+div {
+	margin: 5rem;
 }
 
-/* Add CSS Styles Below */
+@font-face {
+	font-family: "Circular Book";
+	src: url("CircularStd-Book.otf") format("otf"), url("CircularStd-BookItalic.otf") format("otf");
+}
+
+@font-face {
+	font-family: "Circular Black";
+	src: url("CircularStd-Black.otf") format("otf"), url("CircularStd-BlackItalic.otf") format("otf");
+}
+
+@font-face {
+	font-family: "Circular Medium";
+	src: url("CircularStd-Medium.otf") format("otf"), url("CircularStd-MediumItalic.otf") format("otf");
+}
+
+
+.main {
+font-family: "Circular Black", Avenir, sans-serif;
+font-size: 39px;
+background-color: #000000;
+color: #FFFFFF;
+padding: 10pt 10pt 10pt 10pt;
+}
+
+.sub {
+font-family: "Circular Book", Avenir, sans-serif;
+font-size: 28px;
+background-color: #F2F2F2;
+color: #2E2E2E;
+padding: 10pt 10pt 10pt 10pt;
+}
+
+.navi {
+font-family: "Circular Book", Avenir, sans-serif;
+font-size: 20px;
+color: #949494;
+}
+
+.foot {
+font-family: "Circular Medium", Avenir, sans-serif;
+font-size: 28px;
+background-color: #2E2E2E;
+color: #949494;
+padding: 10pt 10pt 10pt 10pt;
+}
