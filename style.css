@@ -18,20 +18,20 @@ div {
 }
 
 
-.main {
+.break {
 font-family: "Circular Black", Avenir, sans-serif;
 font-size: 39px;
 background-color: #000000;
 color: #FFFFFF;
-padding: 10pt 10pt 10pt 10pt;
+padding: 10pt 20pt 20pt 10pt;
 }
 
-.sub {
+.heading {
 font-family: "Circular Book", Avenir, sans-serif;
 font-size: 28px;
 background-color: #F2F2F2;
 color: #2E2E2E;
-padding: 10pt 10pt 10pt 10pt;
+padding: 10pt 5pt 10pt 5pt;
 }
 
 .navi {
@@ -45,5 +45,5 @@ font-family: "Circular Medium", Avenir, sans-serif;
 font-size: 28px;
 background-color: #2E2E2E;
 color: #949494;
-padding: 10pt 10pt 10pt 10pt;
+padding: 30pt 10pt 10pt 10pt;
 }
