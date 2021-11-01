@@ -18,7 +18,7 @@ div {
 }
 
 
-.break {
+.sub {
 font-family: "Circular Black", Avenir, sans-serif;
 font-size: 39px;
 background-color: #000000;
@@ -26,7 +26,7 @@ color: #FFFFFF;
 padding: 10pt 20pt 20pt 10pt;
 }
 
-.heading {
+.head {
 font-family: "Circular Book", Avenir, sans-serif;
 font-size: 28px;
 background-color: #F2F2F2;
