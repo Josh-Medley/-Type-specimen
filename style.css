@@ -2,6 +2,16 @@ div {
 	margin: 5rem;
 }
 
+span {
+	margin: 5rem;
+}
+
+body {
+	font-family: "Circular Black", Avenir, sans-serif;
+	font-size: 39px;
+	padding: 10pt 10pt 10pt 10pt;
+}
+
 @font-face {
 	font-family: "Circular Book";
 	src: url("CircularStd-Book.otf") format("otf"), url("CircularStd-BookItalic.otf") format("otf");
@@ -46,4 +56,46 @@ font-size: 28px;
 background-color: #2E2E2E;
 color: #949494;
 padding: 10pt 10pt 10pt 10pt;
+}
+
+.color1red {
+	background: #FF0000;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color2darkgrey {
+	background: #2E2E2E;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color3grey {
+	background: #949494;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color4whitegrey {
+	background: #F2F2F2;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color5white {
+	background: #FFFFFF;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color6black {
+	background: #000000;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
+}
+
+.color7lightgrey {
+	background: #D8D8D8;
+	color: #6A5ACD;
+	padding: 20px 20px 20px 20px;
 }
