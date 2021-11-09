@@ -6,10 +6,29 @@ span {
 	margin: 5rem;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+.box {
+	display: block;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
 body {
 	font-family: "Circular Black", Avenir, sans-serif;
 	font-size: 39px;
 	padding: 10pt 10pt 10pt 10pt;
+}
+
+colortiles { 
+	width: 120pt;
+	height: 120pt;
+	margin:auto;
+	margin-bottom: 20pt;
 }
 
 .color1red {
@@ -52,4 +71,20 @@ body {
 	background: #D8D8D8;
 	color: #6A5ACD;
 	padding: 20px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1400px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+  navigation {
+	  display:none;
+	}
 }
