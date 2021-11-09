@@ -18,17 +18,13 @@ span {
 	padding: 1rem;
 }
 
-body {
-	font-family: "Circular Black", Avenir, sans-serif;
-	font-size: 39px;
-	padding: 10pt 10pt 10pt 10pt;
-}
-
-colortiles { 
-	width: 120pt;
-	height: 120pt;
-	margin:auto;
-	margin-bottom: 20pt;
+.container{
+	display: block;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	margin: auto;
 }
 
 .color1red {
@@ -71,6 +67,19 @@ colortiles {
 	background: #D8D8D8;
 	color: #6A5ACD;
 	padding: 20px 20px 20px 20px;
+}
+
+body {
+	font-family: "Circular Black", Avenir, sans-serif;
+	font-size: 39px;
+	padding: 10pt 10pt 10pt 10pt;
+}
+
+colortiles { 
+	width: 120pt;
+	height: 120pt;
+	margin:auto;
+	margin-bottom: 20pt;
 }
 
 @media screen and (min-width: 768px) {
