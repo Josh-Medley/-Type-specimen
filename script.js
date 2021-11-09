@@ -1,11 +1,7 @@
 document.execCommand(aCommandName, aShowDefaultUI, aValueArgument)
 
-// myInputElement is some <input type="text"> element
+myInputElement.select(color span);
 
-// Select the value/contents of the element
-myInputElement.select();
-
-// Copy it to clipboard
 document.execCommand("Copy");
 
 function copyText(element) {
@@ -18,7 +14,7 @@ function copyText(element) {
 
     document.body.appendChild(myTemporaryInputElement);
 
-    myTemporaryInputElement.select();
+    myTemporaryInputElement.select(color span);
     document.execCommand("Copy");
 
     document.body.removeChild(myTemporaryInputElement);
