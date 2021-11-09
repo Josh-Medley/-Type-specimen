@@ -1,32 +1,23 @@
-const aioColors = document.querySelectorAll('.color span');
 
-aioColors.forEach(color => {
-  color.addEventListener('click', () => {
-    const selection = window.getSelection();
-    const range = document.createRange();
-    range.selectNodeContents(color);
-    selection.removeAllRanges();
-    selection.addRange(range);
+document.execCommand(aCommandName, aShowDefaultUI, aValueArgument)
 
-    try {
-      document.execCommand('copy');
-      selection.removeAllRanges();
+myInputElement.select("color span");
 
-      const original = color.textContent;
-      color.textContent = 'Copied!';
-      color.classList.add('success');
+document.execCommand("Copy");
 
-      setTimeout(() => {
-        color.textContent = original;
-        color.classList.remove('success');
-      }, 1200);
-    } catch(e) {
-      const errorMsg = document.querySelector('.error-msg');
-      errorMsg.classList.add('show');
+function copyText(element) {
 
-      setTimeout(() => {
-        errorMsg.classList.remove('show');
-      }, 1200);
-    }
-  });
-});
+    var textToCopy = element.innerText;
+
+    var myTemporaryInputElement = document.createElement("input");
+    myTemporaryInputElement.type = "text";
+    myTemporaryInputElement.value = textToCopy;
+
+    document.body.appendChild(myTemporaryInputElement);
+
+    myTemporaryInputElement.select("color span");
+    document.execCommand("Copy");
+
+    document.body.removeChild(myTemporaryInputElement);
+
+}
