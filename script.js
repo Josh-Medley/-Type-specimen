@@ -1,6 +1,6 @@
 document.execCommand(aCommandName, aShowDefaultUI, aValueArgument)
 
-myInputElement.select(color span);
+myInputElement.select("color span");
 
 document.execCommand("Copy");
 
@@ -14,7 +14,7 @@ function copyText(element) {
 
     document.body.appendChild(myTemporaryInputElement);
 
-    myTemporaryInputElement.select(color span);
+    myTemporaryInputElement.select("color span");
     document.execCommand("Copy");
 
     document.body.removeChild(myTemporaryInputElement);
